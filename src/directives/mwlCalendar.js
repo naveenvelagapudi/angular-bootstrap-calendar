@@ -31,7 +31,7 @@ angular
     };
 
     vm.$onInit = function() {
-      console.log('in calendar init');
+
 
       if (vm.slideBoxDisabled) {
         $log.warn(LOG_PREFIX, 'The `slide-box-disabled` option is deprecated and will be removed in the next release. ' +
